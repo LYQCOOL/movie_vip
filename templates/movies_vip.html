@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .main{
+            max-width: 1200px;
+            margin: 0 auto;
+            height: 1000px;
+            /* background-color: aqua; */
+            z-index: 1000;
+        }
+        .image1{
+            max-width: 100%;
+            height: 400px;
+            background-image: url('1.jpg');
+        }
+        .text{
+            width: 180px;
+            height: 40px;
+            border-radius: 4px;
+        }
+        .submit{
+            width:80px;
+            height: 40px;
+            border-radius: 4px;
+        }
+        .search{
+            text-align: center;
+        }
+        .header{
+            width: 100%;
+            height: 100px;
+            background-color: gray;
+        }
+        .main_nav{
+            font-size: 20px;
+            color: black;
+            width: 300px;
+            height: 180px;
+            float: left;
+            text-decoration: none;
+            padding-top: 20px;
+        }
+        a{
+            width: 100px;
+            height: 90px;
+            /* background-color: aqua; */
+            text-decoration: none;
+            color: black;
+        }
+       a:hover{
+           color: coral;
+       }
+       .banner{
+           width: 100%;
+           /* height: 800px; */
+           /* background-color: blueviolet; */
+           position: relative;
+       }
+       .title{
+           position: absolute;
+           left: 0;
+           top:0;
+           /* border:2px solid black; */
+
+           font-size: 40px;
+           color: black;
+       }
+       .photo{
+           text-align: center;
+       }
+       .users{
+           width: 180px;
+           height: 280px;
+           float: left;
+           margin-right: 18px;
+       }
+       .image-url{
+           background-color:blueviolet;
+       }
+       span{
+           display: inline-block;
+           width: 60px;
+           height: 30px;
+           /* background-color: brown; */
+           text-align: center;
+           line-height: 30px;
+           /* border-radius: 4px; */
+       }
+       .review{
+           margin-bottom: 10px;
+       }
+       .review span:hover{
+           background-color: brown;
+           border-radius: 4px;
+           width: 60px;
+           height: 30px;
+           color: white;
+       }
+    </style>
+</head>
+<body>
+        <div class="image1" id="image1">
+            <div class="search" id="search">
+                <input type="text" class="text" id="text">
+                <!-- <input type="submit" class="submit" name="搜索" type="搜索"> -->
+                <button class="submit" id="sub">搜索</button>
+            </div>
+        </div>
+    <div class="main" id="main">
+        <div class="header" id="header">
+                <div class="main_nav main_nav_0">
+               
+                  
+                    
+                        <a href="https://v.qq.com/tv/" target="_blank" class="nav_link _link bold" _stat="new_vs_header:pop_电视剧" data-key="tv" data-left="15">电视剧</a>
+                      
+                        
+                        <a href="https://v.qq.com/tv/yingmei/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_美剧" data-key="atv" data-left="15">美剧</a>
+                      
+                        
+                        <a href="http://v.qq.com/tv/korea/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_韩剧" data-key="krtv" data-left="15">韩剧</a>
+                    
+                        <br>
+                       
+                        <a href="https://v.qq.com/movie/" target="_blank" class="nav_link _link bold" _stat="new_vs_header:pop_电影" data-key="movie" data-left="15" data-invalid="2017-09-27 19:25:48">电影</a>
+                      
+                        
+                        <a href="http://film.qq.com/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_VIP影院" data-key="vip" data-left="15">VIP影院</a>
+                      
+                        
+                        <a href="https://v.qq.com/dv" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_网络电影" data-left="15" data-invalid="2017-11-06 00:00:36">网络电影</a>
+                      
+                    
+              </div>
+              <div class="main_nav main_nav_1">
+               
+                  
+                    
+                    <a href="http://v.qq.com/variety/" target="_blank" class="nav_link _link bold" _stat="new_vs_header:pop_综艺" data-key="variety">综艺</a>
+                  
+                    
+                    <a href="http://v.qq.com/ent/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_娱乐" data-key="ent">娱乐</a>
+                  
+                    
+                    <a href="https://v.qq.com/fun" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_搞笑" data-key="fun" data-invalid="2017-09-17 16:00:30">搞笑</a>
+                  
+                    <br>
+                    <a href="https://v.qq.com/cartoon" target="_blank" class="nav_link _link bold" _stat="new_vs_header:pop_动漫" data-key="cartoon" data-invalid="2017-11-05 16:00:46">动漫</a>
+                  
+                    
+                    <a href="https://v.qq.com/child" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_少儿" data-key="child" data-invalid="2017-08-25 00:00:07">少儿</a>
+                  
+                    
+                    <a href="https://v.qq.com/x/channel/doco" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_纪录片" data-key="doco" data-invalid="2017-12-10 23:50:32">纪录片</a>
+                  
+              
+          </div>
+            <div class="main_nav main_nav_2">
+               
+                  
+                    
+                <a href="https://v.qq.com/music" target="_blank" class="nav_link _link bold" _stat="new_vs_header:pop_音乐" data-key="music" data-invalid="2017-11-04 00:00:21">音乐</a>
+              
+                
+                <a href="http://v.qq.com/x/live/index.html" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_直播">直播</a>
+              
+                
+                <a href="http://v.qq.com/livemusic/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_演唱会" data-key="concert">演唱会</a>
+              
+                <br>
+                <a href="http://v.qq.com/sports/" target="_blank" class="nav_link _link bold" _stat="new_vs_header:pop_体育" data-key="sports">体育</a>
+              
+                
+                <a href="http://sports.qq.com/nbavideo/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_NBA">NBA</a>
+              
+                
+                <a href="http://v.qq.com/games/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_游戏" data-key="game">游戏</a>
+              
+          
+      </div>
+      <div class="main_nav main_nav_3">
+               
+                  
+                    
+            <a href="https://v.qq.com/news" target="_blank" class="nav_link _link bold" _stat="new_vs_header:pop_新闻" data-key="news" data-invalid="2017-11-13 00:00:39">新闻</a>
+          
+            
+            <a href="https://v.qq.com/tech" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_科技" data-key="tech" data-invalid="2017-09-17 16:00:43">科技</a>
+          
+            
+            <a href="https://v.qq.com/finance" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_财经" data-key="finance" data-invalid="2017-11-04 00:00:55">财经</a>
+          
+            
+            <a href="http://v.qq.com/house/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_房产" data-key="house">房产</a>
+          
+            <br>
+            <a href="http://v.qq.com/life/" target="_blank" class="nav_link _link bold" _stat="new_vs_header:pop_生活" data-key="life">生活</a>
+          
+            
+            <a href="http://v.qq.com/fashion/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_时尚" data-key="fashion">时尚</a>
+          
+            
+            <a href="http://v.qq.com/travel/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_旅游" data-key="travel">旅游</a>
+          
+            
+            <a href="http://v.qq.com/baby/" target="_blank" class="nav_link _link" _stat="new_vs_header:pop_育儿" data-key="baby">育儿</a>
+          
+      
+  </div>
+</div>
+        <div class="banner" id="banner">
+            <div class="title">VIP 电影</div>
+            <div class="review">
+                <a href="#" id="most-hot"><span>最热</span></a>
+                <a href="#" id="most-new"><span>好评</span></a>
+                <a href="#" id="pre-page"><span>上一页</span></a>
+                <a href="#" id="next-page"><span>下一页</span></a>
+            </div>
+            
+            <div class="photo" id="photo">
+                
+                
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            
+        </div>
+    </div>
+    <script>
+        var http_con="http://47.106.211.59:9191/movies/";//访问的接口连接
+        var page=1;//全局显示页码数
+        var previous=0;//向前跳转页码接口的全局变量
+        var next=0;//向后跳转页码接口的全局变量
+         var most_hot=document.getElementById("most-hot");
+         var most_new=document.getElementById("most-new");
+         var pre_page=document.getElementById("pre-page");
+         var next_page=document.getElementById("next-page");
+         var sub=document.getElementById("sub");//搜索按钮
+         var text=document.getElementById("text");
+         console.log(text);
+         console.log("打印成功");
+         
+         function Ajaxrequest(){
+
+            //创建服务器连接对象
+            var xhr=new XMLHttpRequest();
+                //建立连接方式
+                xhr.open("GET",http_con,true);
+                //ajax加载方式,加载后进行的操作
+                xhr.onload=function(){
+                    var user=JSON.parse(this.responseText);
+                    console.log(user.results);
+                    users=user.results;
+                    var output='';
+                    for(var i in users){
+                        a="https://yun.jxegc.com/vip.php?url="+users[i].url;
+                        b="http:"+users[i].movie_img_url;
+                        output+=`<div class="users">
+            <a href="${a}" id="a1"><img src="${b}" alt="这是图片" width="180" height="250" class="image-url"></a>
+            <a href="${a}" id="a2"><div id="name"> ${users[i].name}</div></a>
+        </div> `
+        console.log(users[i].movie_img_url);
+                    }
+                    document.getElementById("photo").innerHTML=output;
+    
+                }
+                xhr.send();
+         }
+               
+                most_hot.onclick=function(){
+                    http_con="http://47.106.211.59:9191/movies/?ordering=bofang_nums&search=300";
+                    console.log("函数里面"+http_con);
+                    console.log("求求你成功吧");
+                    Ajaxrequest(http_con);
+                }
+                most_new.onclick=function(){
+                    http_con="http://47.106.211.59:9191/movies/?ordering=score&search=300";
+                    Ajaxrequest(http_con);
+                }
+                pre_page.onclick=function(){
+                    if(page>1){
+                        if(page=2){
+                        http_con="http://47.106.211.59:9191/movies/?search=";
+                        Ajaxrequest(http_con);
+                        page--;
+                    }
+                    else{
+                        var k1=page-1;
+                        http_con="http://47.106.211.59:9191/movies/?page="+k1+"&search=";
+                        Ajaxrequest(http_con);
+                        page--;
+                    }
+                }
+                    
+                }
+                next_page.onclick=function(){
+                   if(page>0){
+                      var k2=page+1;
+                      http_con="http://47.106.211.59:9191/movies/?page="+k2+"&search=";
+                      Ajaxrequest(http_con);
+                      page++;
+                   }
+                }
+                sub.onclick=function(){
+                    http_con="http://47.106.211.59:9191/movies/?search="+text.value;
+                    Ajaxrequest(http_con);
+                }
+                console.log("是否改变"+http_con);
+                Ajaxrequest(http_con);
+        </script>
+</body>
+</html>
